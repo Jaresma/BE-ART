@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#img_pprincipal{
+    margin: 250px;
+}
+#img_pprincipal:hover{
+    transform: scale(1.5);
+}

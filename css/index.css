@@ -1,0 +1,172 @@
+/* Estructura general de mi aap web */
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    background-color: white ;
+   
+}
+
+body{
+    width:750px;
+    height:750px;
+    margin:auto;
+    background-color: white;
+    font-family: 'Staatliches', cursive;
+
+}
+
+header{
+    width:750px;
+    height:250px;
+   
+}
+
+
+main{
+    width:750px;
+    height:400px;
+    background-color:green;
+}
+
+footer{
+    width:750px;
+    height: 50px;
+    background-color:orange;
+}
+
+/* Estructura de las secciones internas de mi estructura general */
+/* seccion interna del header */
+
+section#banner{
+    width: 500px;
+    height: 250px;
+    float: left;
+    background-color:white;
+ 
+    
+}
+
+section#login{
+    width: 250px;
+    height:250px;
+    float: left;
+    background-color: white;
+    text-align: justify;
+    
+   
+}
+
+/* seccion interna del main */
+
+article{
+    width: 500px;
+    height: 450px;
+    float:left;
+    background-color:  #34D80F;
+}
+
+aside#right{
+    width: 250px;
+    height: 450px;
+    float:left;
+    background-color:#0FAED8 ;
+}
+footer{
+    width:750px ;
+    height:50px;
+    float: left;
+    background-color: gray;
+
+}
+
+form#loginf{
+    text-align: justify;
+    float:left;
+    font-size:20px;
+    
+}
+/* estilo formulario session */
+
+label{
+    display: inline-block;
+    width: 180px;
+    margin-right: 20px;
+    }
+
+#hr_login{
+
+    border: #0FAED8  .5px solid;
+}
+#h1_login{
+   
+    
+    font-size:30px;
+
+}
+
+    /* estilo del btn de inico de sesion */
+#btn_s{
+text-decoration: none;
+display: block;
+border:1.5px solid pink;
+width:200px ;
+height: 50px;
+text-align: center;
+margin:auto;
+font-family: 'Staatliches', cursive;
+float:left;
+background-color:#0FAED8 ;
+}
+input{
+    border:1.5px solid pink;
+    
+}
+
+/* estilo de la seccion article */
+#h1_article{
+    font-size:30px;
+}
+#hr_article{
+
+    border: #0FAED8  .5px solid;
+}
+/* estilo de la seccion aside */
+#h1_asider{
+    font-size:30px;
+}
+#hr_asider{
+
+    border:#34D80F  .5px solid;
+}
+#registerf{
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    float:left;
+    font-size:15px;
+
+}
+#btn_r{
+    text-decoration: none;
+    display: block;
+    border:1.5px solid pink;
+    width:200px ;
+    height: 50px;
+    text-align: center;
+    margin:auto;
+    font-family: 'Staatliches', cursive;
+    float:left;
+    background-color:#34D80F ;
+    }
+
+    p.bienvenida{
+        font-size: 50px;
+
+    }
+    img.img_bienvenida{
+        width : 400px; 
+        height : 300px;
+    }
